@@ -1,0 +1,70 @@
+body{
+    color: blue;
+    background-color: rgb(228, 212, 63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ 
+     ;
+     margin: 0;
+     padding: 10px;
+        background-image: url("img/instituto00.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+  
+    
+a {
+    color: black;
+}
+
+ul{
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 26px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    border: 5px green;
+}
+
+.center {
+    text-align: center; 
+}
+
+header {
+    text-align: center; 
+    margin-top: 50px;
+}
+
+
+h1 {
+    color: rgb(42, 86, 42);
+}
+
+
+.container {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 26px; 
+    background-color: #124e20cc; 
+}
+
+.background-container {
+    /* Define a imagem de fundo e algumas propriedades relacionadas */
+    background-image: url('img/instituto00.jpg');
+    background-size: cover; /* Para cobrir todo o tamanho da tela */
+    background-position: center; /* Para centralizar a imagem */
+    height: 100vh; /* Define a altura do contêiner para ocupar toda a altura da tela */
+    display: flex; /* Usa flexbox para centralizar verticalmente o conteúdo */
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .conteudo {
+    text-align: center; 
+    color: white; 
+  }
+  
